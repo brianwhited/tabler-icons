@@ -127,9 +127,9 @@ const printChangelog = function (newIcons, modifiedIcons, renamedIcons, pretty =
 	}
 };
 
-const generateIconsPreview = function (files, destFile, cb, columnsCount = 18, paddingOuter = 3) {
+const generateIconsPreview = function (files, destFile, cb, columnsCount = 17, paddingOuter = 7) {
 
-	const padding = 28,
+	const padding = 26,
 		iconSize = 24;
 
 	const iconsCount = files.length,
@@ -399,6 +399,10 @@ gulp.task('icons-stroke', gulp.series('build-jekyll', function (cb) {
 }));
 
 gulp.task('optimize', function (cb) {
+	const addFloats = function(n1, n2) {
+		return Math.round((parseFloat(n1) + parseFloat(n2)) * 1000) / 1000
+	};
+
 	glob("src/_icons/*.svg", {}, function (er, files) {
 
 		files.forEach(function (file, i) {
@@ -411,8 +415,21 @@ gulp.task('optimize', function (cb) {
 				.replace(/\s?\/>/g, ' />')
 				.replace(/\n\s*<(line|circle|path|polyline|rect)/g, "\n  <$1")
 				.replace(/polyline points="([0-9.]+)\s([0-9.]+)\s([0-9.]+)\s([0-9.]+)"/g, 'line x1="$1" y1="$2" x2="$3" y2="$4"')
-				.replace(/a\s?([0-9.]+)\s([0-9.]+)\s([0-9.]+)\s?([0-1])\s?([0-1])\s?(-?[0-9.]+)\s?(-?[0-9.]+)/g, 'a$1 $2 $3 $4 $5 $6 $7')
-				.replace(/\n\n+/g, "\n");
+				.replace(/([Aa])\s?([0-9.]+)\s([0-9.]+)\s([0-9.]+)\s?([0-1])\s?([0-1])\s?(-?[0-9.]+)\s?(-?[0-9.]+)/gi, '$1$2 $3 $4 $5 $6 $7 $8')
+				.replace(/\n\n+/g, "\n")
+
+				.replace(/<path d="M([0-9.]*) ([0-9.]*)l\s?([-0-9.]*) ([-0-9.]*)"/g, function(f, r1, r2, r3, r4){
+					return `<line x1="${r1}" y1="${r2}" x2="${addFloats(r1, r3)}" y2="${addFloats(r2, r4)}"`;
+				})
+				.replace(/<path d="M([0-9.]*) ([0-9.]*)v\s?([0-9.]*)"/g, function(f, r1, r2, r3){
+					return `<line x1="${r1}" y1="${r2}" x2="${r1}" y2="${addFloats(r2, r3)}"`;
+				})
+				.replace(/<path d="M([0-9.]*) ([0-9.]*)h\s?([0-9.]*)"/g, function(f, r1, r2, r3){
+					return `<line x1="${r1}" y1="${r2}" x2="${addFloats(r1, r3)}" y2="${r2}"`;
+				});
+
+			//  
+			//
 
 			if(svgFile.toString() !== svgFileContent) {
 				fs.writeFileSync(file, svgFileContent);

@@ -1,10 +1,8 @@
 # Tabler Icons
 
-A set of over 550 free MIT-licensed high-quality SVG icons for you to use in your web projects. Each icon is designed on a 24x24 grid and a `2px` stroke.
+A set of over 600 free MIT-licensed high-quality SVG icons for you to use in your web projects. Each icon is designed on a 24x24 grid and a `2px` stroke.
 
 **If you want to support my project and help me grow it, you can [become a sponsor on GitHub](https://github.com/sponsors/codecalm) or just [donate on PayPal](https://paypal.me/codecalm) :)**
-
-We prepared for you a site where you can configure stroke, color and size online: [tablericons.com](https://tablericons.com)
 
 ## Preview
 

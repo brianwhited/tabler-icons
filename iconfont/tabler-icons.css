@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*!
- * Tabler Icons 1.10.0 by tabler - https://tabler.io
+ * Tabler Icons 1.14.0 by tabler - https://tabler.io
  * License - https://github.com/tabler/tabler-icons/blob/master/LICENSE
  */
 @font-face {
@@ -24,6 +24,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ti-a-b:before {
+  content: "";
+}
+
 .ti-accessible:before {
   content: "";
 }
@@ -38,6 +42,14 @@
 
 .ti-adjustments:before {
   content: "";
+}
+
+.ti-adjustments-alt:before {
+  content: "";
+}
+
+.ti-adjustments-horizontal:before {
+  content: "";
 }
 
 .ti-alarm:before {
@@ -408,8 +420,16 @@
   content: "";
 }
 
+.ti-brand-behance:before {
+  content: "";
+}
+
 .ti-brand-chrome:before {
   content: "";
+}
+
+.ti-brand-codepen:before {
+  content: "";
 }
 
 .ti-brand-dribbble:before {
@@ -444,6 +464,14 @@
   content: "";
 }
 
+.ti-brand-medium:before {
+  content: "";
+}
+
+.ti-brand-messenger:before {
+  content: "";
+}
+
 .ti-brand-opera:before {
   content: "";
 }
@@ -460,6 +488,10 @@
   content: "";
 }
 
+.ti-brand-slack:before {
+  content: "";
+}
+
 .ti-brand-snapchat:before {
   content: "";
 }
@@ -468,8 +500,16 @@
   content: "";
 }
 
+.ti-brand-tiktok:before {
+  content: "";
+}
+
 .ti-brand-twitter:before {
   content: "";
+}
+
+.ti-brand-whatsapp:before {
+  content: "";
 }
 
 .ti-briefcase:before {
@@ -540,8 +580,8 @@
   content: "";
 }
 
-.ti-building-skyscrappers:before {
-  content: "";
+.ti-building-skyscraper:before {
+  content: "";
 }
 
 .ti-building-store:before {
@@ -588,8 +628,24 @@
   content: "";
 }
 
+.ti-camera-minus:before {
+  content: "";
+}
+
+.ti-camera-plus:before {
+  content: "";
+}
+
+.ti-capture:before {
+  content: "";
+}
+
 .ti-car:before {
   content: "";
+}
+
+.ti-caravan:before {
+  content: "";
 }
 
 .ti-caret-down:before {
@@ -626,6 +682,10 @@
 
 .ti-chart-bar:before {
   content: "";
+}
+
+.ti-chart-bubble:before {
+  content: "";
 }
 
 .ti-chart-candle:before {
@@ -780,6 +840,10 @@
   content: "";
 }
 
+.ti-comet:before {
+  content: "";
+}
+
 .ti-command:before {
   content: "";
 }
@@ -788,8 +852,16 @@
   content: "";
 }
 
+.ti-contrast:before {
+  content: "";
+}
+
 .ti-copy:before {
   content: "";
+}
+
+.ti-copyleft:before {
+  content: "";
 }
 
 .ti-copyright:before {
@@ -834,6 +906,10 @@
 
 .ti-crop:before {
   content: "";
+}
+
+.ti-crosshair:before {
+  content: "";
 }
 
 .ti-currency-bitcoin:before {
@@ -1000,6 +1076,10 @@
   content: "";
 }
 
+.ti-electric-scooter:before {
+  content: "";
+}
+
 .ti-emphasis:before {
   content: "";
 }
@@ -1120,10 +1200,6 @@
   content: "";
 }
 
-.ti-floppy-disk:before {
-  content: "";
-}
-
 .ti-focus:before {
   content: "";
 }
@@ -1170,6 +1246,10 @@
 
 .ti-friends:before {
   content: "";
+}
+
+.ti-gas-station:before {
+  content: "";
 }
 
 .ti-gauge:before {
@@ -1324,6 +1404,14 @@
   content: "";
 }
 
+.ti-keyboard-hide:before {
+  content: "";
+}
+
+.ti-keyboard-show:before {
+  content: "";
+}
+
 .ti-language:before {
   content: "";
 }
@@ -1396,6 +1484,10 @@
   content: "";
 }
 
+.ti-layout-kanban:before {
+  content: "";
+}
+
 .ti-layout-list:before {
   content: "";
 }
@@ -1420,8 +1512,112 @@
   content: "";
 }
 
-.ti-letter-case:before {
-  content: "";
+.ti-letter-a:before {
+  content: "";
+}
+
+.ti-letter-b:before {
+  content: "";
+}
+
+.ti-letter-c:before {
+  content: "";
+}
+
+.ti-letter-d:before {
+  content: "";
+}
+
+.ti-letter-e:before {
+  content: "";
+}
+
+.ti-letter-f:before {
+  content: "";
+}
+
+.ti-letter-g:before {
+  content: "";
+}
+
+.ti-letter-h:before {
+  content: "";
+}
+
+.ti-letter-i:before {
+  content: "";
+}
+
+.ti-letter-j:before {
+  content: "";
+}
+
+.ti-letter-k:before {
+  content: "";
+}
+
+.ti-letter-l:before {
+  content: "";
+}
+
+.ti-letter-m:before {
+  content: "";
+}
+
+.ti-letter-n:before {
+  content: "";
+}
+
+.ti-letter-o:before {
+  content: "";
+}
+
+.ti-letter-p:before {
+  content: "";
+}
+
+.ti-letter-q:before {
+  content: "";
+}
+
+.ti-letter-r:before {
+  content: "";
+}
+
+.ti-letter-s:before {
+  content: "";
+}
+
+.ti-letter-t:before {
+  content: "";
+}
+
+.ti-letter-u:before {
+  content: "";
+}
+
+.ti-letter-v:before {
+  content: "";
+}
+
+.ti-letter-w:before {
+  content: "";
+}
+
+.ti-letter-x:before {
+  content: "";
+}
+
+.ti-letter-y:before {
+  content: "";
+}
+
+.ti-letter-z:before {
+  content: "";
+}
+
+.ti-letters-case:before {
+  content: "";
 }
 
 .ti-license:before {
@@ -1430,6 +1626,10 @@
 
 .ti-lifebuoy:before {
   content: "";
+}
+
+.ti-line:before {
+  content: "";
 }
 
 .ti-line-height:before {
@@ -1450,6 +1650,10 @@
 
 .ti-live-photo:before {
   content: "";
+}
+
+.ti-live-view:before {
+  content: "";
 }
 
 .ti-location:before {
@@ -1500,6 +1704,18 @@
   content: "";
 }
 
+.ti-markdown:before {
+  content: "";
+}
+
+.ti-marquee:before {
+  content: "";
+}
+
+.ti-mars:before {
+  content: "";
+}
+
 .ti-math:before {
   content: "";
 }
@@ -1508,12 +1724,20 @@
   content: "";
 }
 
+.ti-medal:before {
+  content: "";
+}
+
 .ti-medical-cross:before {
   content: "";
 }
 
 .ti-menu:before {
   content: "";
+}
+
+.ti-menu-2:before {
+  content: "";
 }
 
 .ti-message:before {
@@ -1640,6 +1864,10 @@
   content: "";
 }
 
+.ti-page-break:before {
+  content: "";
+}
+
 .ti-paint:before {
   content: "";
 }
@@ -1672,6 +1900,10 @@
   content: "";
 }
 
+.ti-phone-calling:before {
+  content: "";
+}
+
 .ti-phone-check:before {
   content: "";
 }
@@ -1700,8 +1932,8 @@
   content: "";
 }
 
-.ti-pillow:before {
-  content: "";
+.ti-pill:before {
+  content: "";
 }
 
 .ti-plane:before {
@@ -1784,6 +2016,10 @@
   content: "";
 }
 
+.ti-rocket:before {
+  content: "";
+}
+
 .ti-rotate:before {
   content: "";
 }
@@ -1820,6 +2056,14 @@
   content: "";
 }
 
+.ti-run:before {
+  content: "";
+}
+
+.ti-sailboat:before {
+  content: "";
+}
+
 .ti-scale:before {
   content: "";
 }
@@ -1830,6 +2074,10 @@
 
 .ti-scissors:before {
   content: "";
+}
+
+.ti-scooter:before {
+  content: "";
 }
 
 .ti-search:before {
@@ -1846,6 +2094,14 @@
 
 .ti-separator:before {
   content: "";
+}
+
+.ti-separator-horizontal:before {
+  content: "";
+}
+
+.ti-separator-vertical:before {
+  content: "";
 }
 
 .ti-server:before {
@@ -1878,6 +2134,10 @@
 
 .ti-shield-x:before {
   content: "";
+}
+
+.ti-ship:before {
+  content: "";
 }
 
 .ti-shirt:before {
@@ -1948,6 +2208,10 @@
   content: "";
 }
 
+.ti-steering-wheel:before {
+  content: "";
+}
+
 .ti-sticker:before {
   content: "";
 }
@@ -1980,6 +2244,10 @@
   content: "";
 }
 
+.ti-swiming:before {
+  content: "";
+}
+
 .ti-switch:before {
   content: "";
 }
@@ -1998,6 +2266,26 @@
 
 .ti-tag:before {
   content: "";
+}
+
+.ti-tallymark-1:before {
+  content: "";
+}
+
+.ti-tallymark-2:before {
+  content: "";
+}
+
+.ti-tallymark-3:before {
+  content: "";
+}
+
+.ti-tallymark-4:before {
+  content: "";
+}
+
+.ti-tallymarks:before {
+  content: "";
 }
 
 .ti-target:before {
@@ -2038,10 +2326,6 @@
 
 .ti-terminal-2:before {
   content: "";
-}
-
-.ti-test:before {
-  content: "";
 }
 
 .ti-test-pipe:before {
@@ -2124,6 +2408,14 @@
   content: "";
 }
 
+.ti-truck-delivery:before {
+  content: "";
+}
+
+.ti-truck-return:before {
+  content: "";
+}
+
 .ti-typography:before {
   content: "";
 }
@@ -2176,6 +2468,10 @@
   content: "";
 }
 
+.ti-venus:before {
+  content: "";
+}
+
 .ti-viewfinder:before {
   content: "";
 }
@@ -2202,6 +2498,10 @@
 
 .ti-volume-3:before {
   content: "";
+}
+
+.ti-walk:before {
+  content: "";
 }
 
 .ti-wallet:before {
@@ -2246,6 +2546,10 @@
 
 .ti-yin-yang:before {
   content: "";
+}
+
+.ti-zoom-cancel:before {
+  content: "";
 }
 
 .ti-zoom-in:before {
